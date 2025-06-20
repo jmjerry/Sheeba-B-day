@@ -1,0 +1,35 @@
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        padding: 0px;
+        background: yellow;
+    }
+    .img-lt {
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+
+    h1 {
+        position: relative;
+        left: 500px;
+    }
+
+    p {
+        position: relative;
+        left: 500px;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1201px) and (max-width:1600px) {
+
+}
+
+@media (min-width: 1601px) {
+    
+}

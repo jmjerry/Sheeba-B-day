@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top right, #ffe4ec, #fff0f5);
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    padding: 50px;
+}
+
+.birthday-container {
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'great vibes', cursive;
+    color: #ff4081;
+    margin-bottom: 0px;
+    position: relative;
+
+}
+
+p {
+    font-size: 30px;
+    font-family: "arvo", cursive;
+}
+/* Floating hearts */
+.heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    transform: rotate(45deg);
+    animation: float 6s infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.heart::before {
+    top: -15px;
+    left: 0;
+}
+
+.heart::after {
+    left: -15px;
+    top: 0;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(45deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100px) rotate(45deg);
+        opacity: 0;
+    }
+}
+
+/* Random hearts positions */
+.heart1 {
+    top: 100px;
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.heart2 {
+    top: 200px;
+    left: 40%;
+    animation-delay: 1s;
+}
+
+.heart3 {
+    top: 150px;
+    left: 60%;
+    animation-delay: 2s;
+}
+
+.heart4 {
+    top: 80px;
+    left: 70%;
+    animation-delay: 3s;
+}
+
+.heart5 {
+    top: 250px;
+    left: 30%;
+    animation-delay: 4s;
+}
+
+.img-cnt1 {
+    position: relative;
+    top: -300px;
+    left: -10px;
+    rotate: -15deg;
+
+}
+.img-bg1 {
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.img1 {
+    height: 280px;
+    width: 280px;
+    border-radius: 140px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.img-cnt2 {
+    position: relative;
+    top: -450px;
+    left: 60px;
+    rotate: -15deg;
+
+}
+.img-bg2 {
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.img2 {
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.img-rt {
+    position: relative;
+    top: 170px;
+    left: 940px;
+    
+}
+.img-cnt3 {
+    position: relative;
+    top: -740px;
+    left: -10px;
+    rotate: 15deg;
+
+}
+.img-bg3 {
+    background-color: burlywood;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.img3 {
+    height: 280px;
+    width: 280px;
+    border-radius: 140px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.img-cnt4 {
+    position: relative;
+    top: -850px;
+    left:10px;
+    rotate: 15deg;
+
+}
+.img-bg4 {
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.img4 {
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
